@@ -21,7 +21,7 @@ Once you have these packages, you should be able to simply click the run button 
 ## Important Note:
 I've been made aware of an issue with running this application on Windows. There is a known bug with the PortAudio package which is downloaded automatically when you install RSound via the Racket pkg installer. The latest version of PortAudio fixed it, however, it isn't present in Racket's package library, so it needs to be installed manually. You can find the steps on installing it [here](https://www.portaudio.com/).<br>Additionally, I have noticed some issues with running this program on Linux (I developed this program on MacOS so I hadn't noticed them). Depending on the linux install, this program will either work perfectly fine, or will give one of two errors:
 
-* [Assertion #<procedure:negative?\> failed on 0.0](https://github.com/jbclements/RSound/issues/47)
+* [Assertion #\<procedure:negative?\> failed on 0.0](https://github.com/jbclements/RSound/issues/47)
 * [identifier `beginner-<=' not included in nested require spec in: lang/private/teachprims](https://github.com/jbclements/RSound/issues/51)
 
 Both errors are known to the developers of RSound and I have added a link to their GitHub Issues pages. Unfortunately, neither seem to have a proper solution.
